@@ -18,12 +18,12 @@
                 Calculadora IMC
             </h1>
             <div class="input-box">
-                <label for="wigth">
+                <label for="weigth">
                     Peso em Kg
                 </label>
                 <div class="input-field">
                     <i class="fa-solid fa-weight-hanging"></i>
-                    <input type="number" id="wheigt" required>
+                    <input type="number" id="weight" required>
                     <span>
                         Kg
                     </span>
@@ -31,12 +31,12 @@
                 
             </div>
             <div class="input-box">
-                <label for="higth">
-                    Altura
+                <label for="height">
+                    Altura em metros
                 </label>
                 <div class="input-field">
-                    <i class="fa-solid fa-ruler"></i>
-                    <input type="number" id="higth" required>
+                    <i class="fa-solid fa-weight-hanging"></i>
+                    <input type="number" id="height" required>
                     <span>
                         M
                     </span>
@@ -46,23 +46,23 @@
             <button id="calculate">
                 Calcular
             </button>
-        </form>
-        <div id="infos">
-
-        </div>
-        <div id="result">
-            <div id="bmi">
-                <span id="value"></span>
-                <span>SEU IMC</span>
+                 </form>
+            <div id="infos" class="hidden">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value">55</span>
+                        <span>SEU IMC</span>
+                    </div>
             </div>
             <div id="description"></div>
-            <span></span>
+            <span>55</span>
         </div>
-        <div id="moreInfo">
+        <div id="moreInfo" class="hidden">
             <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm" target="_blank">Mais informações sobre IMC</a>
             <i class="fa-solid fa-link"></i>
         </div>
         </section>
     </main>
+    <script src="script.js"></script>
 </body>
 </html>
